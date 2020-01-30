@@ -1,14 +1,104 @@
 :root {
-    --primario-color: #005A8A;
-    --secundario-color: #Dfcb91;
-    --bordes-color: rgb(0, 0, 0);
-    --texto-primario-color: rgb(255, 255, 255);
-    --iconos-articulos-color: #000000;
-    --articulos-color: #F5e249;
+    --primario-fondo-color: #43a047;
+    --secundario-fondo-color: #f5f5f5;
+    --primario-texto-color-claro: #76d275;
+    --primario-texto-color-oscuro: #00701a;
+    --secundario-texto-color: #FFFFFF;
+}
+
+body {
+    font-family: "Roboto";
 }
 
 
+/* Main */
+
+
 /* HABITACION */
+
+header#header-habitacion {
+    color: var(--secundario-texto-color);
+    text-align: center;
+    background-color: var(--primario-fondo-color);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 0;
+}
+
+div#nombre-habitacion {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--secundario-fondo-color);
+    color: var(--primario-texto-color-claro);
+    text-align: center;
+}
+
+div#botones-habitacion {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid gray;
+    border-radius: 20px;
+    background-color: #EDEDED;
+}
+
+div#imagen-habitacion img {
+    width: 100%;
+}
+
+div#map {
+    text-align: center;
+}
+
+div.form {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+div#descripcion-habitacion {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+div#iconos-habitacion {
+    padding: 15px;
+}
+
+div#iconos-habitacion ul {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    padding-left: 0px;
+    color: gray;
+    list-style: none;
+}
+
+div#iconos-habitacion .material-icons {
+    color: var(--primario-fondo-color);
+}
+
+footer#footer-habitacion {
+    text-align: center;
+    background-color: var(--primario-fondo-color);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 1em;
+}
+
+div#redes-sociales {
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+}
+
+div#redes-sociales a {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+div#copyright {
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+}
 
 
 /* Slider de fotos de Habitación */
